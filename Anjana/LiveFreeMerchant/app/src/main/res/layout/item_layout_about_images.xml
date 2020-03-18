@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:background="@drawable/login_button"
+>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_photo"
+            android:id="@+id/iv_add_photo"
+    />
+    <com.livefree.merchant.util.TextviewReg
+            android:id="@+id/tv_add_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_photo"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textColorHint="@color/colorGrey"
+            android:theme="@style/LiveFree"
+            android:textSize="16sp"/>
+</LinearLayout>

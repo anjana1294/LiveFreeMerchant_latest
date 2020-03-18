@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/login_button"
+              android:orientation="vertical"
+              android:elevation="8dp"
+              android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Name :"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_customer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:text=""
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"/>
+
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Date:"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_cust_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_date"
+                android:text="07-Nov-2019"
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"/>
+
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Time:"
+                android:layout_below="@id/tv_cust_date"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_cust_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_time"
+                android:text="8:00 PM"
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_contact_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Contact No."
+                android:inputType="phone"
+                android:digits="0123456789"
+                android:maxLength="10"
+                android:layout_below="@id/tv_cust_time"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:inputType="phone"
+                android:digits="0123456789"
+                android:maxLength="10"
+                android:layout_below="@id/tv_contact_number"
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"/>
+
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Section:"
+                android:layout_below="@id/tv_number"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_cus_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:layout_below="@id/tv_sec"
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_cust_date"
+                android:layout_marginTop="8dp"
+                android:text="Table No.:"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_cust_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_table"
+                android:text=""
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"
+                />
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_chair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_cust_table"
+                android:layout_marginTop="8dp"
+                android:text="Chair Required:"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_cust_chair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_chair"
+                android:text=""
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"
+        />
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_cust_chair"
+                android:layout_marginTop="8dp"
+                android:text="Served By:"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_server_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_server"
+                android:text=""
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"
+
+        />
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_emailId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_server_name"
+                android:layout_marginTop="8dp"
+                android:text="Email Address:"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_emailId"
+                android:text=""
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorGrey"
+                android:textSize="16sp"></com.livefree.merchant.util.TextviewReg>
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"></View>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+        <com.livefree.merchant.util.TextviewReg
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="right"
+                android:id="@+id/tv_order_id"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@color/colorStatusBar"
+                android:textSize="14sp"/>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:id="@+id/tv_food_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:text="View Food Order"
+                android:textColor="@color/colorLightGreen"
+                android:textSize="16sp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <style name="LiveFree.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="textColorAlertDialogListItem">@color/colorOrange</item>
+        <!--<item name="android:textColorPrimary">@color/colorOrange</item>-->
+        <item name="android:background">@color/colorTabBlack</item>
+
+    </style>
+</resources>

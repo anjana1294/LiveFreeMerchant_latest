@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "678940802999",
+    "firebase_url": "https://livefreemerchant.firebaseio.com",
+    "project_id": "livefreemerchant",
+    "storage_bucket": "livefreemerchant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678940802999:android:1c285359c5cb0e64673232",
+        "android_client_info": {
+          "package_name": "com.livefree.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678940802999-3ni0mtjepds0rhc9853qka07a9b1m1rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaMPKvFteHwgZ39AkDPnEi-nQxiAtU2YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678940802999-3ni0mtjepds0rhc9853qka07a9b1m1rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

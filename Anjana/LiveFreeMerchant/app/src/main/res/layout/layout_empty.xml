@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawablePadding="10dp"
+          android:drawableTop="@drawable/ic_empty_cart"
+          android:gravity="center"
+          android:text="@string/no_data_found"
+          android:textColor="@color/colorWhite"
+          android:textSize="20sp"
+          android:id="@+id/emptyView"
+          android:visibility="gone"
+          tools:visibility="visible"/>

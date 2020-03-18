@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">LiveFreeMerchant</string>
+    <!-- Login labels-->
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="Having_Trouble_Logging_In">Having Trouble Logging In?</string>
+    <string name="donot_have_any_account">Don\'t have any account ?</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="processing_msg">Processing…</string>
+
+
+    <!-- SignUp labels-->
+    <string name="name">Name</string>
+    <string name="phone">Phone No.</string>
+    <string name="cb_tnc_msg">I agree to the</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- OTP labels-->
+    <string name="otp_msg">An OTP has been sent to your registered email.</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="didnot_recceive_code">Didn\'t receive code?</string>
+    <string name="verify">Verify</string>
+
+    <!--Forgot Screen-->
+    <string name="forgot_your_password">Forgot Your \n Password ?</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="type_your_number">Type Your Register Number</string>
+    <string name="btn_send">SEND</string>
+    <string name="please_enter_your_number">Please enter your register email below \n and we\'ll send you 4 digit OTP
+        number
+    </string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="please_enter_newpassword">Please enter your new password.</string>
+
+    <!--Location-->
+    <string name="your_city">Your City</string>
+    <string name="your_address">Your Address</string>
+    <string name="current_location">Current Location</string>
+    <string name="submit">Submit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Home Screen-->
+    <string name="your_location">Your Location</string>
+    <string name="Restaurants">Restaurants</string>
+    <string name="about">About</string>
+    <string name="businessDays">Business Days</string>
+    <string name="location">Location</string>
+    <string name="servers">Servers</string>
+    <string name="sections">Sections</string>
+    <string name="menu">Menu</string>
+    <string name="payment">Payment</string>
+
+
+    <!--Spinner List-->
+    <string-array name="ChoosetheCategory">
+
+        <item></item>
+        <item>Choose the Category</item>
+        <item>Restaurants</item>
+        <item>Hospital</item>
+        <item>Hotels</item>
+    </string-array>
+
+    <!--About-->
+    <string name="your_business_name">Your Business Name</string>
+    <string name="description">Description..</string>
+    <string name="about_me">About Me</string>
+    <string name="images">Images</string>
+    <string name="Save">Save</string>
+    <string name="add_photo">Add photo</string>
+
+    <!--Server-->
+    <string name="Contact_detail">Contact Detail</string>
+    <string name="detail">Details</string>
+    <string name="age">Age</string>
+    <string name="add_server">Add Server</string>
+    <string name="add_section">Add Section</string>
+    <string name="add_table">Add Table</string>
+    <string name="table1">Table No.</string>
+    <string name="chair">Chairs</string>
+    <string name="Server">Server</string>
+    <string name="assigned">Assigned</string>
+    <string name="Booked">Booked</string>
+
+    <!--Server-->
+    <string name="change_password">Change Password</string>
+
+    <!--Setting-->
+    <string name="Setting">Setting</string>
+    <string name="profile">My Profile</string>
+
+    <!--Home-->
+    <string name="today_booking">Today Booking</string>
+    <string name="server">Server</string>
+    <string name="section">Sections</string>
+    <string name="Menu">Menu</string>
+
+    <!--Menu-->
+    <string name="Food_name">Food Name</string>
+    <string name="Price">Price</string>
+    <string name="Add_menu">Add Menu</string>
+
+    <!--UserName-->
+    <string name="username">username</string>
+    <string name="Restaurant_logo">Restaurant Logo</string>
+
+
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="no_data_found">Sorry, No data found</string>
+    <!--Logout-->
+    <string name="logout_msg">Are you sure you want to logout?</string>
+
+</resources>

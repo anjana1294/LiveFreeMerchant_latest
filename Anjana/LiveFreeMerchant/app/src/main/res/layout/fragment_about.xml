@@ -1,0 +1,142 @@
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:background="@color/colorBackgroundBlack">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:id="@+id/view_about"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorGrey"
+                    android:layout_marginTop="16dp">
+
+                <android.support.design.widget.TextInputEditText
+
+                        android:id="@+id/et_business_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="16dp"
+                        android:gravity="start|center_vertical"
+                        android:hint="@string/your_business_name"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColorHint="@color/colorGrey"
+                        android:theme="@style/LiveFree"
+                        android:nextFocusDown="@id/et_desc"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <com.livefree.merchant.util.TextviewReg
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="16dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/about_me"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colorGrey"
+                    android:theme="@style/LiveFree"
+                    android:nextFocusDown="@id/et_password"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"/>
+
+            <com.livefree.merchant.util.EdittextViewReg
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/grey_boundary_bg"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:theme="@style/LiveFree"
+                    android:hint="@string/description"
+                    android:padding="4dp"
+                    android:textColorHint="@color/colorGrey"
+                    android:gravity="start"
+                    android:textColor="@color/colorWhite"
+                    android:scrollHorizontally="false"
+                    android:id="@+id/et_desc"/>
+
+            <com.livefree.merchant.util.TextviewReg
+                    android:id="@+id/et_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="16dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/images"
+                    android:textColorHint="@color/colorGrey"
+                    android:theme="@style/LiveFree"
+                    android:nextFocusDown="@id/et_images"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="@color/colorWhite"></View>
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:background="@drawable/login_button"
+                android:padding="16dp">
+            <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/iv_about_pic"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/add_photo"/>
+
+            <com.livefree.merchant.util.TextviewReg
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Photo"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/iv_about_pic"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp"/>
+
+        </RelativeLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+            <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_about_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/login_button"
+                    android:theme="@style/LiveFree"
+                    android:padding="16dp"
+                    android:text="@string/Save"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

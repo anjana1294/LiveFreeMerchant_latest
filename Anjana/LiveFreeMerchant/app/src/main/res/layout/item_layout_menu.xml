@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/addtable_bg"
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    >
+        <com.livefree.merchant.util.TextviewReg
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="Pasta"
+                android:id="@+id/tv_item_menu"
+                android:padding="20dp"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+        ></com.livefree.merchant.util.TextviewReg>
+
+
+        <com.livefree.merchant.util.TextviewReg
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="$ 10"
+                android:id="@+id/tv_item_price"
+                android:padding="20dp"
+                android:layout_toLeftOf="@id/ll_image"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+        ></com.livefree.merchant.util.TextviewReg>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ll_image"
+            android:layout_centerInParent="true"
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more"
+                android:id="@+id/iv_edit_menu"
+        />
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

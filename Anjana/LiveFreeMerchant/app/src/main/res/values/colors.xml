@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackgroundBlack">#191919</color>
+    <color name="colorTabBlack">#292929</color>
+    <color name="colorGrey">#979797</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorToolbar">#06f4ee</color>
+    <color name="colorStatusBar">#26adaa</color>
+    <color name="colorLightGreen">#32fa0b</color>
+    <color name="colorOrange">#fd6e12</color>
+    <color name="colorRed">#FFFD1212</color>
+
+    <color name="colorWhite">#fff</color>
+
+</resources>

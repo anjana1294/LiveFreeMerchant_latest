@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTabBlack"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+    <com.livefree.merchant.util.TextviewReg
+            android:id="@+id/tv_item_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="food"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+    <com.livefree.merchant.util.TextviewReg
+            android:id="@+id/tv_item_quatity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dashed_line"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="3"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+    <com.livefree.merchant.util.TextviewReg
+            android:id="@+id/tv_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/dashed_line"
+            android:gravity="right"
+            android:padding="6dp"
+            android:text="500"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+</RelativeLayout>

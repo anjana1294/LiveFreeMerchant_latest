@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:background="@color/colorBackgroundBlack"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorGrey"
+                android:layout_marginTop="16dp">
+
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="16dp"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:text="merchant.demo@yopmail.com"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colorGrey"
+                    android:theme="@style/LiveFree"
+                    android:nextFocusDown="@id/et_password"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:passwordToggleEnabled="true"
+                android:textColorHint="@color/colorGrey"
+                app:passwordToggleTint="@color/colorGrey">
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_key"
+                    android:drawableLeft="@drawable/ic_key"
+                    android:drawablePadding="16dp"
+                    android:theme="@style/LiveFree"
+                    android:gravity="start|center_vertical"
+                    android:hint="Password"
+                    android:text="123456"
+                    android:textColorHint="@color/colorGrey"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <com.livefree.merchant.util.TextviewReg
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/tv_forgot"
+                android:text="@string/Having_Trouble_Logging_In"
+                android:textColor="@color/colorOrange"
+                android:textSize="14sp">
+
+        </com.livefree.merchant.util.TextviewReg>
+
+
+        <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/login_button"
+                android:theme="@style/LiveFree"
+                android:padding="16dp"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"/>
+
+        <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:visibility="invisible"
+                tools:visibility="visible"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.1"
+                    android:background="@color/colorGrey"></View>
+
+            <com.livefree.merchant.util.TextviewReg
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:text="@string/or_login_with"
+                    android:textColor="@color/colorGrey"
+                    android:textSize="14sp" />
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.1"
+                    android:background="@color/colorGrey"></View>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+            <ImageView
+                    android:id="@+id/img_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/fb" />
+
+            <ImageView
+                    android:id="@+id/img_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/google" />
+        </LinearLayout>
+
+
+
+        <com.livefree.merchant.util.TextviewReg
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_signIn"
+                android:gravity="center|bottom"
+                android:text="@string/donot_have_any_account"
+                android:textColor="@color/colorGrey"
+                android:layout_marginTop="16dp"
+                android:textSize="14sp"/>
+
+    </LinearLayout>
+</ScrollView>
